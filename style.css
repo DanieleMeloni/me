@@ -1,0 +1,158 @@
+
+/*colors
+*/
+
+body {
+  font-family: calibri;
+}
+.container {
+  display: flex;  
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100vh;  
+  align-items: center;
+  background-color: skyblue
+}
+
+.selfintroduction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #F5F08F;
+  height: 100vh
+  
+     
+}
+
+#islandman {
+  width: 40%;
+  display: flex;
+  align-self: flex-end;  
+}
+
+.h1topborder {
+ margin-top: 30%;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: Freestyle Script;
+  margin-top: 0%;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 2px #F5A78E;
+  
+
+}
+
+h2 {
+  font-size: 3rem;  
+  margin-top: 25%;
+  font-family: calibri;
+  text-shadow: 2px 2px 2px #F5A78E;
+}
+
+
+
+.me {  
+  border-radius: 50%;
+  width: 250px;
+}
+
+.hellocontainer {
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10%;
+text-align: center;
+}
+
+.hello {
+margin: 5%;
+
+text-shadow: 2px 2px 2px gray;
+}
+
+h3 {
+  margin-top: 0;
+}
+h4 {
+  font-size: 1.15rem;
+  text-shadow: 1px 1px 1px gray;
+  width: 70%;
+  margin: 0;
+}
+
+.workAndSkillContainer{
+  display:flex;  
+  justify-content: center;
+  
+}
+
+.workAndSkillContainer > div {
+  width: 70%;
+  align-self: center;
+  margin-top: 7%;
+}
+
+.laptopWorkImage {
+  width: 150px;
+  float: left;
+  margin-right: 2%;
+}
+
+p {
+  margin: 0;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 650px) {
+  .container {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;  
+    align-items: center;   
+  }
+  
+  .selfintroduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 100vh
+  }  
+  
+  
+  #islandman {
+    width: 60%;
+    display: flex;
+    align-self: center;
+  }
+
+  .h1topborder {
+    margin-top: 30%;
+   }
+   
+  h1 {
+     font-size: 3rem;
+     font-family: Freestyle Script;
+     margin-top: 0%;
+     margin-bottom: 0;
+     text-shadow: 2px 2px 2px #F5A78E;
+     
+   
+   }
+   
+  h2 {
+     font-size: 2rem;  
+     margin-top: 25%;
+     font-family: calibri;
+     text-shadow: 2px 2px 2px #F5A78E;
+  }
+}
